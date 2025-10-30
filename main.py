@@ -5,9 +5,7 @@ def main():
     pygame.init()
 
     #screen size
-    screen_width  = 600
-    screen_height = 600
-    screen = pygame.display.set_mode((screen_width, screen_height))
+    screen = pygame.display.set_mode((Game.screen_width, Game.screen_height))
 
     #titel & icon
     pygame.display.set_caption("Galaga")
